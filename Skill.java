@@ -7,11 +7,14 @@ public class Skill{
 
 int no = 21;
 
-if(no % 3 == 0 && no % 7 == 0){
-System.out.println("3 and 7 is divisible:" + no);
+if(no % 3 == 0){
+System.out.println(no+" no is divisible by 3:");
 }
-else{
-System.out.println("3 and 7 is not divisible:" + no);
+if(no%7 ==0){
+      System.out.println(no+" no is divisible by 7");
+}
+if(no % 3!=0 && no % 7!=0){
+System.out.println("3 and 7 is not divisible for:" + no);
 }
 
 }
